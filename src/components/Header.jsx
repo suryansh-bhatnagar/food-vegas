@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import Logo from "../assets/img/food_vegas_logo.png"
+import { useContext } from "react";
+import UserContext from "../helper/UserContext";
+import { useSelector } from "react-redux";
 
 export const Title = () => (
     <div className='logo'>
@@ -8,9 +11,15 @@ export const Title = () => (
 );
 
 const Header = () => {
+
+    const {user} = useContext(UserContext);
+
+    const {items} = useSelector(store=>store.cart);
+    console.log(items)
     return (
         <div className='flex justify-between p-2 m-2 bg-pink-100 shadow-lg'>
             <Title />
+            <span className="text-xl font-bold">{user.name} - {user.email}</span>
             <ul className='flex py-10 '>
                 <li className="px-2">
                     <Link to={'/'}>
@@ -24,6 +33,10 @@ const Header = () => {
                 </li>
                 <li className="px-2"> <Link to={'/contact'}>
                     Contact
+                </Link>
+                </li>
+                <li className="px-2"> <Link to={'/cart'}>
+                    Cart - {items?.length}
                 </Link>
                 </li>
                 <li className="px-2"> <Link to={'/instamart'}>

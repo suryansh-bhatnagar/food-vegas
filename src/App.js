@@ -1,4 +1,4 @@
-import React, { lazy,Suspense } from 'react';
+import React, { lazy,Suspense, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './components/Header';
 import Body from './components/Body';
@@ -9,15 +9,24 @@ import Error from './components/Error';
 import Contact from './components/Contact';
 import RestaurantDetails from './components/RestaurantDetails';
 import Shimmer from './components/Shimmer';
-// import Cart from './components/Instamart';
+import UserContext from './helper/UserContext';
+import { Provider } from 'react-redux';
+import store from './helper/store';
+import Cart from './components/Cart';
 
 
 const AppLayout = () => {
+
+    const [user ,setuser]=useState({name : "Suryansh",email:"suryansh@gmail.com"})
     return (
         <>
+        <Provider store={store}>
+        <UserContext.Provider value={{user:user}}>
             <Header />
             <Outlet/>
             <Footer />
+            </UserContext.Provider>
+            </Provider>
         </>
     );
 };
@@ -41,6 +50,10 @@ const AppRouter = createBrowserRouter([
             {
                 path:'/contact',
                element:<Contact/>
+            },
+            {
+                path:'/cart',
+               element:<Cart/>
             },
             {
                 path:'/instamart',
