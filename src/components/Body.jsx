@@ -40,11 +40,13 @@ const Body = () => {
     if(!isOnline){
         return <h2>🔴 You went offline</h2>
     }
-
+// return <Shimmer/>
     return allRestaurants?.length === 0 ? (
-        <Shimmer />
+        <Shimmer/>
+      
     ) : (
         <>
+    
             <div className="search-container my-5 mx-2 bg-pink-100 p-2">
                 <input type="text" className="search-input p-2" placeholder="Enter your search term" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
                 <button className="text-pink-100 search-btn m-2 p-2 bg-purple-600 rounded-md" onClick={() => {

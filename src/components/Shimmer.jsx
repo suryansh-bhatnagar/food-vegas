@@ -1,22 +1,15 @@
 const Shimmer = () => {
     return (
-      <div className="restaurant-list">
+      <div className="flex flex-wrap">
         {Array(10)
           .fill("")
           .map((e, index) => (
-            <div key={index} className="shimmer-card">
-                <div className="shimmerBG media"></div>
-                <div className="p-32">
-                    <div className="shimmerBG title-line"></div>
-                    <div className="shimmerBG title-line end"></div>
-
-                    <div className="shimmerBG content-line m-t-24"></div>
-                    <div className="shimmerBG content-line"></div>
-                    <div className="shimmerBG content-line"></div>
-                    <div className="shimmerBG content-line"></div>
-                    <div className="shimmerBG content-line end"></div>
-                </div>
-            </div>
+            <div className="flex flex-col w-72 shadow-lg   gap-1 m-4 pb-3">
+            <div className="w-48 h-36 bg-gray-100 rounded-lg "></div>
+            <div className="w-24 mx-2 my-1 h-4 bg-gray-100 rounded-lg"></div>
+            <div className="w-24 mx-2 my-1 h-4 bg-gray-100 rounded-lg"></div>
+           
+          </div>
           ))}
       </div>
     );
