@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 
 export const Title = () => (
     <div className='logo'>
-     <img src={Logo} alt="logo" className="h-24 p-2"/>
+     <img src={Logo} alt="logo" className="h-16 p-2"/>
     </div>
 );
 
@@ -17,7 +17,7 @@ const Header = () => {
     const {items} = useSelector(store=>store.cart);
     console.log(items)
     return (
-        <div className='flex justify-between p-2 m-2 bg-pink-100 shadow-lg'>
+        <div className='flex justify-between items-center p-2 h-20  bg-white shadow-lg'>
             <Title />
             <span className="text-xl font-bold">{user.name} - {user.email}</span>
             <ul className='flex py-10 '>
