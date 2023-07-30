@@ -28,7 +28,7 @@ const FoodCard = ({data}) => {
            <p className=' text-sm text-gray-400'> {data.card.info.description} </p>      
         </div>
         <div className='relative flex flex-col items-center'>
-            <img className='w-32 h-auto rounded-lg self-center ' src={IMAGE_CDN_URL + data.card.info.imageId}/>
+           {data.card.info.imageId ? <img className='w-32 h-auto rounded-lg self-center ' src={IMAGE_CDN_URL + data.card.info.imageId}/> : <div className='w-32 h-20 bg-gray-200'></div>}
         <div className="absolute top-14 cursor-pointer  bg-white text-center text-sm font-medium text-green-600  m-2 w-20 p-1 shadow-lg rounded-md" onClick={()=>handleAdd()}>
                     ADD  
                 </div>

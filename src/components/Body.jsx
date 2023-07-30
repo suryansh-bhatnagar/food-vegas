@@ -45,7 +45,7 @@ const Body = () => {
         <Shimmer/>
       
     ) : (
-        <>
+        <div className="mb-10">
     
             <div className="my-5 mx-2 flex items-center justify-center p-2">
                 <input type="text" className="p-2 focus:outline-none w-1/2 border border-gray-400 rounded-lg " placeholder="Search for restaurants" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
@@ -67,7 +67,7 @@ const Body = () => {
                     )
                 }
             </div>
-        </>
+        </div>
     )
 };
 

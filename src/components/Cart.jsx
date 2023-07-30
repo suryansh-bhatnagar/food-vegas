@@ -3,6 +3,9 @@ import { IMAGE_CDN_URL } from "../helper/constants";
 import { clearCart, decrQuantity, incrQuantity, removeFromCart } from "../helper/CartSlice";
 import { useEffect, useState } from "react";
 import { truncateString } from "../helper/utils";
+// import CartLogo from "../assets/img/cart-png.png"
+import CartLogo from "../assets/img/cart.jpg"
+import { Link } from "react-router-dom";
 
 const Cart = () => {
 
@@ -16,9 +19,11 @@ useEffect(()=>{
   }, 0):0)
 },[cartItems])
   return cartItems.length === 0 ?
-    <div className="m-2">
-      <h2 className="text-center">Your cart is empty</h2>
-      <h3 className="text-center">  You can go to home page to view more restaurantst</h3>
+    <div className="m-2 flex flex-col items-center">
+     <img src={CartLogo} className="h-96 my-6" alt="" />
+      <h2 className="text-center text-2xl font-bold text-gray-700 my-4">Your cart is empty</h2>
+      <h3 className="text-center text-lg">  You can go to home page to view more restaurants</h3>
+      <Link to={'/'} className="bg-red-500 text-white p-4 rounded-xl my-4 font-bold shadow-xl" >See Restaurants </Link>
     </div>
     :
     <div className="m-2">
