@@ -1,7 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
 import { IMAGE_CDN_URL } from "../helper/constants";
-import { clearCart, removeFromCart } from "../helper/CartSlice";
+import { clearCart, decrQuantity, incrQuantity, removeFromCart } from "../helper/CartSlice";
 import { useEffect, useState } from "react";
+import { truncateString } from "../helper/utils";
 
 const Cart = () => {
 
@@ -14,11 +15,6 @@ useEffect(()=>{
     return x + (y.price)/100;
   }, 0):0)
 },[cartItems])
-// let sum =  
-
-// console.log("Summation",sum);
- 
-  // const calculateBillAmount = ()=> cartItems.reduce((sum,val)=>sum+val) ;
   return cartItems.length === 0 ?
     <div className="m-2">
       <h2 className="text-center">Your cart is empty</h2>
@@ -27,14 +23,21 @@ useEffect(()=>{
     :
     <div className="m-2">
       <button className="text-pink-100 search-btn m-2 px-2 py-1 bg-red-600 rounded-md" onClick={() => dispatch(clearCart())}>Clear Cart</button>
-      <div className=" flex gap-2">
+      <div className=" flex gap-2 flex-wrap">
 
         {cartItems.map((item) => {
-          return <div className=' p-1 w-48 shadow-lg bg-pink-100' key={item.id}>
-            <img src={IMAGE_CDN_URL + item.imageId} />
-            <h2 className="font-bold text-xl p-1">{item.name}</h2>
-            <span className="font-bold p-1">₹{(item.price) / 100}</span>
-            <button className="text-pink-100 search-btn m-2 p-1 bg-purple-600 rounded-md" onClick={()=>dispatch(removeFromCart(item.id))}>Remove</button>
+          return <div className='  w-48 shadow-lg rounded-t-lg pb-2' key={item.id}>
+            <img className="rounded-t-xl" src={IMAGE_CDN_URL + item.imageId} />
+            <h2 className="font-bold text-md pl-2 pb-2">{truncateString(item.name,15)}</h2>
+            <div className="flex gap-2 pl-2 ">
+            <span className="font-bold ">₹{(item.price) / 100}</span>
+            <div className="border border-gray-400 w-fit">
+            <button className="text-gray-500 font-bold  mx-2   rounded-md" onClick={()=> item?.quantity >= 2
+              ? dispatch(decrQuantity(item))
+              : dispatch(removeFromCart(item))}>-</button>
+            <span>{item.quantity}</span>
+            <button className="text-gray-500 font-bold mx-2   rounded-md" onClick={()=>dispatch(incrQuantity(item))}>+</button>
+            </div></div>
           </div>
         }
         )}

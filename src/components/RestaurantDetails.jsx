@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom"
 import { IMAGE_CDN_URL } from "../helper/constants";
-import Shimmer from "./Shimmer";
 import useRestaurantInfo from "../helper/useRestaurantInfo";
 import { truncateString } from "../helper/utils";
 import RestaurantCategory from "./RestaurantCategory";
+import RestaurantDetailsShimmer from "./Shimmers/RestaurantDetailsShimmer";
 
 const RestaurantDetails = () => {
 
@@ -24,7 +24,7 @@ const RestaurantDetails = () => {
     console.log("Category data ",categories);
 
 
-    return !restaurantInfo ? <Shimmer/> : <div className="flex flex-col mx-auto   px-5 lg:w-3/5 gap-5">
+    return !restaurantInfo ? <RestaurantDetailsShimmer/> : <div className="flex flex-col mx-auto   px-5 lg:w-3/5 gap-5">
         <section className="flex justify-between w-full bg-black rounded-b-md p-4">
             <div>
                 <h1 className="font-bold text-lg text-white mb-2">{restaurantInfo.name}</h1>
@@ -47,7 +47,6 @@ const RestaurantDetails = () => {
                 categories?.map((category,index)=><RestaurantCategory
                    key={index} 
                    data={category.card.card}
-                  
                    />)
             }
         </div>

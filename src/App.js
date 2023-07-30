@@ -8,7 +8,7 @@ import About from './components/About';
 import Error from './components/Error';
 import Contact from './components/Contact';
 import RestaurantDetails from './components/RestaurantDetails';
-import Shimmer from './components/Shimmer';
+import Shimmer from './components/Shimmers/Shimmer';
 import UserContext from './helper/UserContext';
 import { Provider } from 'react-redux';
 import store from './helper/store';

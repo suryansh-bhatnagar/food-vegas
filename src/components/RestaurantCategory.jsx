@@ -4,7 +4,6 @@ import FoodCard from './FoodCard';
 const RestaurantCategory = ({data}) => {
 
     const [showItems, setShowItems] = useState(true);
-    console.log(data.title);
   return (
     <div>
         <div className='flex justify-between px-4' onClick={()=>setShowItems(!showItems)}>
