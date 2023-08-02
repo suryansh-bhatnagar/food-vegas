@@ -22,22 +22,22 @@ const Header = () => {
     return (
         <div className='flex justify-between items-center p-2 h-28   shadow-lg bg-gradient-to-r from-red-600 via-red-500 to-red-600'>
             <Title />
-            <ul className='flex py-10 '>
-                <li className="px-2 mx-4 font-semibold text-white hover:border-b hover:border-white">
+            <ul className='flex py-10'>
+                <li className="px-2 md:mx-4 font-semibold text-white hover:border-b hover:border-white">
                     <Link to={'/'}>
                         Home
                     </Link>
                 </li>
-                <li className="px-2 mx-4 font-semibold text-white hover:border-b hover:border-white">
+                <li className="px-2 md:mx-4 font-semibold text-white hover:border-b hover:border-white">
                     <Link to={'/about'}>
                         About
                     </Link>
                 </li>
-                <li className="px-2 mx-4 font-semibold text-white hover:border-b hover:border-white"> <Link to={'https://github.com/suryansh-bhatnagar'} target="_blank">
+                <li className="px-2 md:mx-4 font-semibold text-white hover:border-b hover:border-white"> <Link to={'https://github.com/suryansh-bhatnagar'} target="_blank">
                     Contact
                 </Link>
                 </li>
-                <li className="px-2 mx-4 font-semibold text-white hover:border-b hover:border-white"> <Link to={'/cart'}>
+                <li className="px-2 md:mx-4 font-semibold text-white hover:border-b hover:border-white"> <Link to={'/cart'}>
                     Cart - {items?.length}
                 </Link>
                 </li>

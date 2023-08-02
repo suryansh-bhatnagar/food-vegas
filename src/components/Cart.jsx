@@ -15,7 +15,7 @@ const Cart = () => {
 
 useEffect(()=>{
   setTotalAmount(cartItems.length ? cartItems?.reduce(function (x, y) {
-    return x + (y.price)/100;
+    return x + y.quantity*(y.price)/100;
   }, 0):0)
 },[cartItems])
   return cartItems.length === 0 ?

@@ -846,7 +846,7 @@ export const restaurant_data = [
 
 
 export const category_data = [
-  [
+  
     {
         "card": {
             "card": {
@@ -3758,7 +3758,7 @@ export const category_data = [
             }
         }
     }
-]
+
 ]          
   
     

@@ -59,8 +59,8 @@ const Body = () => {
 
             <div className='flex flex-wrap gap-3  justify-center m-2'>
                 {filteredRestaurant?.length === 0 ? <h2>No result found</h2>
-                    : filteredRestaurant?.map((restaurant) => {
-                        return <Link to={"/restaurant/"+restaurant.info.id} key={restaurant.info.id}>
+                    : filteredRestaurant?.map((restaurant,index) => {
+                        return <Link to={"/restaurant/"+restaurant.info.id} key={index}>
                         <RestaurantCard {...restaurant.info} />
                        </Link>
                     }

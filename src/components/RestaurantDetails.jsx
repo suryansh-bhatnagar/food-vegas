@@ -1,27 +1,33 @@
 import { useParams } from "react-router-dom"
-import { IMAGE_CDN_URL } from "../helper/constants";
+import { IMAGE_CDN_URL, category_data } from "../helper/constants";
 import useRestaurantInfo from "../helper/useRestaurantInfo";
 import { truncateString } from "../helper/utils";
 import RestaurantCategory from "./RestaurantCategory";
 import RestaurantDetailsShimmer from "./Shimmers/RestaurantDetailsShimmer";
+import { useEffect,useState } from "react";
+
 
 const RestaurantDetails = () => {
 
     const { resId } = useParams();
     const [restaurantInfo,menuData,data] = useRestaurantInfo(resId);
+    const [categories, setCategories] = useState([]);
     console.log("MENU DATA: ", menuData)
     console.log("Restaurant info",restaurantInfo)
     console.log(" data ",data)
 
     const i = 2;
 
-    const categories = data?.cards[i]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
-      (c) =>
-        c.card?.["card"]?.["@type"] ===
-        "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
-    );
+    useEffect(()=>{
 
-    console.log("Category data ",categories);
+        const fatchedCategories = data?.cards[i]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+          (c) =>
+            c.card?.["card"]?.["@type"] ===
+            "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+        );
+        fatchedCategories === undefined ? setCategories(category_data) : setCategories(categories)
+    },[])
+
 
 
     return !restaurantInfo ? <RestaurantDetailsShimmer/> : <div className="flex flex-col mx-auto   px-5 lg:w-3/5 gap-5">
