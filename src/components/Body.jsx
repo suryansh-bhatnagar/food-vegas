@@ -7,7 +7,7 @@ import useIsOnline from "../helper/useIsOnline";;
 
 const filterData = (keyword, restaurants) => {
     const data = restaurants.filter((restaurant) =>
-        restaurant?.data?.name.toUpperCase().includes(keyword.toUpperCase())
+        restaurant?.info?.name.toUpperCase().includes(keyword.toUpperCase())
     )
     return data;
 }
@@ -19,13 +19,8 @@ const Body = () => {
 
     const fetchRestaurants = async () => {
 
-        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.62494&lng=79.8075272&page_type=DESKTOP_WEB_LISTING");
-        const json = await data.json();
-        console.log(json);
-        const cardsData = json?.data?.cards.filter(
-            (card) => { return card.cardType === "seeAllRestaurants" });
-        setAllRestaurants([...restaurant_data,...restaurant_data]);
-        setFilteredRestaurants([...restaurant_data,...restaurant_data]);
+        setAllRestaurants(restaurant_data);
+        setFilteredRestaurants(restaurant_data);
 
     }
 
@@ -58,7 +53,9 @@ const Body = () => {
             </div>
 
             <div className='flex flex-wrap gap-3  justify-center m-2'>
-                {filteredRestaurant?.length === 0 ? <h2>No result found</h2>
+                {filteredRestaurant?.length === 0 ? <div className="h-96">
+                    <img className="h-96" src="https://elfegnie.adc.com.et/elfegnie_web/assets/img/no_rest_found.png" alt="no results" />
+                </div>
                     : filteredRestaurant?.map((restaurant,index) => {
                         return <Link to={"/restaurant/"+restaurant.info.id} key={index}>
                         <RestaurantCard {...restaurant.info} />

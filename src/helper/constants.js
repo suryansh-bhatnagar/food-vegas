@@ -1,848 +1,6 @@
 export const  IMAGE_CDN_URL ="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/"
 export const  FETCH_RESTAURANT_DETAILS_URL ="https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.62494&lng=79.8075272&restaurantId=";
 
-export const restaurant_data = [
-  
-    {
-        "info": {
-            "id": "185157",
-            "name": "New Etah Sweets & Restaurant (All Prep.In Desi Ghee)",
-            "cloudinaryImageId": "locmrpjilk8xowpnxfj6",
-            "locality": "Nai Basti\n",
-            "areaName": "Ekta Nagar",
-            "costForTwo": "₹200 for two",
-            "cuisines": [
-                "Sweets",
-                "South Indian",
-                "Snacks",
-                "Desserts",
-                "Beverages",
-                "Continental",
-                "American",
-                "Chaat",
-                "Chinese",
-                "Bakery"
-            ],
-            "avgRating": 3.9,
-            "veg": true,
-            "feeDetails": {
-                "restaurantId": "185157",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 900
-            },
-            "parentId": "146451",
-            "avgRatingString": "3.9",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 17,
-                "lastMileTravel": 0.1,
-                "serviceability": "SERVICEABLE",
-                "slaString": "17 mins",
-                "lastMileTravelString": "0.1 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-07-30 21:45:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "aggregatedDiscountInfoV2": {},
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/new-etah-sweets-and-restaurant-all-prep-in-desi-ghee-nai-basti-ekta-nagar-pilibhit-185157",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "332210",
-            "name": "GO99 Pizza",
-            "cloudinaryImageId": "w4jwzc6eliyc0qntp3fo",
-            "locality": "Nai Basti\n",
-            "areaName": "Gandhi Stadium Road",
-            "costForTwo": "₹200 for two",
-            "cuisines": [
-                "Continental",
-                "Italian"
-            ],
-            "avgRating": 3.5,
-            "feeDetails": {
-                "restaurantId": "332210",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 900
-            },
-            "parentId": "87943",
-            "avgRatingString": "3.5",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 15,
-                "serviceability": "SERVICEABLE",
-                "slaString": "15 mins",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-07-30 22:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "60% OFF",
-                "subHeader": "UPTO ₹120"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/go99-pizza-nai-basti-gandhi-stadium-road-pilibhit-332210",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "164188",
-            "name": "The Real Pizza",
-            "cloudinaryImageId": "pnyydcyyugmkv21kdidy",
-            "locality": "Ballabh Nagar Colony",
-            "areaName": "Pilibhit Locality",
-            "costForTwo": "₹200 for two",
-            "cuisines": [
-                "Pizzas",
-                "Italian-American",
-                "Snacks"
-            ],
-            "avgRating": 3.8,
-            "feeDetails": {
-                "restaurantId": "164188",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 900
-            },
-            "parentId": "212985",
-            "avgRatingString": "3.8",
-            "totalRatingsString": "5K+",
-            "sla": {
-                "deliveryTime": 21,
-                "lastMileTravel": 1.3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "21 mins",
-                "lastMileTravelString": "1.3 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-07-30 22:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "40% OFF",
-                "subHeader": "UPTO ₹80"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/the-real-pizza-ballabh-nagar-colony-pilibhit-locality-pilibhit-164188",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "459145",
-            "name": "Temptations (Premium Bakery & Cafe)",
-            "cloudinaryImageId": "jotz49y24u77mrzhjcsw",
-            "locality": "Gandhi Stadium Road\n",
-            "areaName": "Nai Basti\n",
-            "costForTwo": "₹300 for two",
-            "cuisines": [
-                "Bakery",
-                "Fast Food",
-                "Snacks",
-                "Italian",
-                "Beverages"
-            ],
-            "avgRating": 3.7,
-            "veg": true,
-            "feeDetails": {
-                "restaurantId": "459145",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 900
-            },
-            "parentId": "315117",
-            "avgRatingString": "3.7",
-            "totalRatingsString": "100+",
-            "sla": {
-                "deliveryTime": 18,
-                "lastMileTravel": 0.4,
-                "serviceability": "SERVICEABLE",
-                "slaString": "18 mins",
-                "lastMileTravelString": "0.4 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-07-30 22:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "25% OFF",
-                "subHeader": "UPTO ₹65"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/temptations-premium-bakery-and-cafe-gandhi-stadium-road-nai-basti-pilibhit-459145",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "212853",
-            "name": "GO69 Pizza.",
-            "cloudinaryImageId": "bmhdkk7gf4i5uzvcegpg",
-            "locality": "Nai Basti\n",
-            "areaName": "Gandhi Stadium Road",
-            "costForTwo": "₹200 for two",
-            "cuisines": [
-                "Pizzas",
-                "Snacks",
-                "Italian-American"
-            ],
-            "avgRating": 3.6,
-            "feeDetails": {
-                "restaurantId": "212853",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 900
-            },
-            "parentId": "6253",
-            "avgRatingString": "3.6",
-            "totalRatingsString": "5K+",
-            "sla": {
-                "deliveryTime": 17,
-                "serviceability": "SERVICEABLE",
-                "slaString": "17 mins",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-07-30 22:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹125 OFF",
-                "subHeader": "ABOVE ₹199",
-                "discountTag": "FLAT DEAL"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/go69-pizza-nai-basti-gandhi-stadium-road-pilibhit-212853",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "427690",
-            "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
-            "cloudinaryImageId": "rdl2ciyn80u2qhgpsefx",
-            "locality": "Surbhi Colony",
-            "areaName": "Nai Basti",
-            "costForTwo": "₹300 for two",
-            "cuisines": [
-                "Desserts",
-                "Ice Cream",
-                "Ice Cream Cakes"
-            ],
-            "avgRating": 4.5,
-            "veg": true,
-            "feeDetails": {
-                "restaurantId": "427690",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 900
-            },
-            "parentId": "582",
-            "avgRatingString": "4.5",
-            "totalRatingsString": "500+",
-            "sla": {
-                "deliveryTime": 12,
-                "lastMileTravel": 1.3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "12 mins",
-                "lastMileTravelString": "1.3 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-07-30 23:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "30% OFF",
-                "subHeader": "UPTO ₹75"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/kwality-walls-frozen-dessert-and-ice-cream-shop-surbhi-colony-nai-basti-pilibhit-427690",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "163878",
-            "name": "Shree Restaurant (Santosh Hotel)",
-            "cloudinaryImageId": "amfzo4igoouyno1adyuo",
-            "locality": "Nai Basti\n",
-            "areaName": "Nai Basti",
-            "costForTwo": "₹120 for two",
-            "cuisines": [
-                "North Indian",
-                "Biryani",
-                "Mughlai",
-                "Continental",
-                "Chinese",
-                "Beverages",
-                "Italian-American"
-            ],
-            "avgRating": 3.9,
-            "feeDetails": {
-                "restaurantId": "163878",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 900
-            },
-            "parentId": "185459",
-            "avgRatingString": "3.9",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 20,
-                "serviceability": "SERVICEABLE",
-                "slaString": "20 mins",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-07-30 22:30:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "aggregatedDiscountInfoV2": {},
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/shree-restaurant-santosh-hotel-nai-basti-pilibhit-163878",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "185156",
-            "name": "Nirmal Hotel & Restaurant",
-            "cloudinaryImageId": "i42z0now0p4cng3c7osl",
-            "locality": "Nai Basti\n",
-            "areaName": "Nai Basti",
-            "costForTwo": "₹250 for two",
-            "cuisines": [
-                "North Indian",
-                "Mughlai",
-                "Chinese",
-                "Tandoor",
-                "Snacks",
-                "Continental",
-                "Beverages",
-                "American",
-                "Ice Cream",
-                "Biryani"
-            ],
-            "avgRating": 4.1,
-            "feeDetails": {
-                "restaurantId": "185156",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 900
-            },
-            "parentId": "149250",
-            "avgRatingString": "4.1",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 21,
-                "lastMileTravel": 0.9,
-                "serviceability": "SERVICEABLE",
-                "slaString": "21 mins",
-                "lastMileTravelString": "0.9 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-07-30 22:45:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "aggregatedDiscountInfoV2": {},
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/nirmal-hotel-and-restaurant-nai-basti-pilibhit-185156",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "164477",
-            "name": "Silver Leaf (Honey Dew Restaurant)",
-            "cloudinaryImageId": "wsvrerqexxmdkxgk75id",
-            "locality": "Tanakpur Road",
-            "areaName": "Nai Basti",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-                "North Indian",
-                "Chinese",
-                "Continental",
-                "Biryani",
-                "Thalis",
-                "Tandoor"
-            ],
-            "avgRating": 4,
-            "feeDetails": {
-                "restaurantId": "164477",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 900
-            },
-            "parentId": "188032",
-            "avgRatingString": "4.0",
-            "totalRatingsString": "100+",
-            "sla": {
-                "deliveryTime": 20,
-                "lastMileTravel": 1.3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "20 mins",
-                "lastMileTravelString": "1.3 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-07-30 22:30:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "aggregatedDiscountInfoV2": {},
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/silver-leaf-honey-dew-restaurant-tanakpur-road-nai-basti-pilibhit-164477",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "316833",
-            "name": "Royal Pizza Xpress",
-            "cloudinaryImageId": "myjivbe5v8gfzhcrg5fv",
-            "locality": "Nai Basti",
-            "areaName": "Surbhi Colony",
-            "costForTwo": "₹200 for two",
-            "cuisines": [
-                "Pizzas"
-            ],
-            "avgRating": 3.8,
-            "feeDetails": {
-                "restaurantId": "316833",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 900
-            },
-            "parentId": "172381",
-            "avgRatingString": "3.8",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 27,
-                "lastMileTravel": 1.5,
-                "serviceability": "SERVICEABLE",
-                "slaString": "27 mins",
-                "lastMileTravelString": "1.5 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-07-30 23:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "60% OFF",
-                "subHeader": "UPTO ₹120"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/royal-pizza-xpress-nai-basti-surbhi-colony-pilibhit-316833",
-            "type": "WEBLINK"
-        }
-    }
-]
-
-
-
 
 
 export const category_data = [
@@ -3759,7 +2917,2152 @@ export const category_data = [
         }
     }
 
-]          
+]  
+
+
+export const restaurant_data = [
+  
+    {
+        "info": {
+            "id": "185157",
+            "name": "New Etah Sweets & Restaurant (All Prep.In Desi Ghee)",
+            "cloudinaryImageId": "locmrpjilk8xowpnxfj6",
+            "locality": "Nai Basti\n",
+            "areaName": "Ekta Nagar",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Sweets",
+                "South Indian",
+                "Snacks",
+                "Desserts",
+                "Beverages",
+                "Continental",
+                "American",
+                "Chaat",
+                "Chinese",
+                "Bakery"
+            ],
+            "avgRating": 3.9,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "185157",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "146451",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 17,
+                "lastMileTravel": 0.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "17 mins",
+                "lastMileTravelString": "0.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 21:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/new-etah-sweets-and-restaurant-all-prep-in-desi-ghee-nai-basti-ekta-nagar-pilibhit-185157",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "332210",
+            "name": "GO99 Pizza",
+            "cloudinaryImageId": "w4jwzc6eliyc0qntp3fo",
+            "locality": "Nai Basti\n",
+            "areaName": "Gandhi Stadium Road",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Continental",
+                "Italian"
+            ],
+            "avgRating": 3.5,
+            "feeDetails": {
+                "restaurantId": "332210",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "87943",
+            "avgRatingString": "3.5",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 15,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15 mins",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/go99-pizza-nai-basti-gandhi-stadium-road-pilibhit-332210",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "164188",
+            "name": "The Real Pizza",
+            "cloudinaryImageId": "pnyydcyyugmkv21kdidy",
+            "locality": "Ballabh Nagar Colony",
+            "areaName": "Pilibhit Locality",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Pizzas",
+                "Italian-American",
+                "Snacks"
+            ],
+            "avgRating": 3.8,
+            "feeDetails": {
+                "restaurantId": "164188",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "212985",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 21,
+                "lastMileTravel": 1.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "21 mins",
+                "lastMileTravelString": "1.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-real-pizza-ballabh-nagar-colony-pilibhit-locality-pilibhit-164188",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "459145",
+            "name": "Temptations (Premium Bakery & Cafe)",
+            "cloudinaryImageId": "jotz49y24u77mrzhjcsw",
+            "locality": "Gandhi Stadium Road\n",
+            "areaName": "Nai Basti\n",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Bakery",
+                "Fast Food",
+                "Snacks",
+                "Italian",
+                "Beverages"
+            ],
+            "avgRating": 3.7,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "459145",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "315117",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 18,
+                "lastMileTravel": 0.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "18 mins",
+                "lastMileTravelString": "0.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "25% OFF",
+                "subHeader": "UPTO ₹65"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/temptations-premium-bakery-and-cafe-gandhi-stadium-road-nai-basti-pilibhit-459145",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "212853",
+            "name": "GO69 Pizza.",
+            "cloudinaryImageId": "bmhdkk7gf4i5uzvcegpg",
+            "locality": "Nai Basti\n",
+            "areaName": "Gandhi Stadium Road",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Pizzas",
+                "Snacks",
+                "Italian-American"
+            ],
+            "avgRating": 3.6,
+            "feeDetails": {
+                "restaurantId": "212853",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "6253",
+            "avgRatingString": "3.6",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 17,
+                "serviceability": "SERVICEABLE",
+                "slaString": "17 mins",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/go69-pizza-nai-basti-gandhi-stadium-road-pilibhit-212853",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "427690",
+            "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+            "cloudinaryImageId": "rdl2ciyn80u2qhgpsefx",
+            "locality": "Surbhi Colony",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Desserts",
+                "Ice Cream",
+                "Ice Cream Cakes"
+            ],
+            "avgRating": 4.5,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "427690",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "582",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 12,
+                "lastMileTravel": 1.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "12 mins",
+                "lastMileTravelString": "1.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO ₹75"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/kwality-walls-frozen-dessert-and-ice-cream-shop-surbhi-colony-nai-basti-pilibhit-427690",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "163878",
+            "name": "Shree Restaurant (Santosh Hotel)",
+            "cloudinaryImageId": "amfzo4igoouyno1adyuo",
+            "locality": "Nai Basti\n",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹120 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani",
+                "Mughlai",
+                "Continental",
+                "Chinese",
+                "Beverages",
+                "Italian-American"
+            ],
+            "avgRating": 3.9,
+            "feeDetails": {
+                "restaurantId": "163878",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "185459",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 20,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20 mins",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 22:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/shree-restaurant-santosh-hotel-nai-basti-pilibhit-163878",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "185156",
+            "name": "Nirmal Hotel & Restaurant",
+            "cloudinaryImageId": "i42z0now0p4cng3c7osl",
+            "locality": "Nai Basti\n",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "North Indian",
+                "Mughlai",
+                "Chinese",
+                "Tandoor",
+                "Snacks",
+                "Continental",
+                "Beverages",
+                "American",
+                "Ice Cream",
+                "Biryani"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+                "restaurantId": "185156",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "149250",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 21,
+                "lastMileTravel": 0.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "21 mins",
+                "lastMileTravelString": "0.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 22:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/nirmal-hotel-and-restaurant-nai-basti-pilibhit-185156",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "164477",
+            "name": "Silver Leaf (Honey Dew Restaurant)",
+            "cloudinaryImageId": "wsvrerqexxmdkxgk75id",
+            "locality": "Tanakpur Road",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "North Indian",
+                "Chinese",
+                "Continental",
+                "Biryani",
+                "Thalis",
+                "Tandoor"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+                "restaurantId": "164477",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "188032",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 1.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20 mins",
+                "lastMileTravelString": "1.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 22:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/silver-leaf-honey-dew-restaurant-tanakpur-road-nai-basti-pilibhit-164477",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "316833",
+            "name": "Royal Pizza Xpress",
+            "cloudinaryImageId": "myjivbe5v8gfzhcrg5fv",
+            "locality": "Nai Basti",
+            "areaName": "Surbhi Colony",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Pizzas"
+            ],
+            "avgRating": 3.8,
+            "feeDetails": {
+                "restaurantId": "316833",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "172381",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 1.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "27 mins",
+                "lastMileTravelString": "1.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/royal-pizza-xpress-nai-basti-surbhi-colony-pilibhit-316833",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "377012",
+            "name": "Pilibhit Da Cafe Dhaba",
+            "cloudinaryImageId": "scvducr3auetks3lolri",
+            "locality": "Tanakpur road",
+            "areaName": "Ashok Colony",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Italian"
+            ],
+            "avgRating": 3.6,
+            "feeDetails": {
+                "restaurantId": "377012",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "157824",
+            "avgRatingString": "3.6",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 22:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/pilibhit-da-cafe-dhaba-tanakpur-road-ashok-colony-pilibhit-377012",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "164211",
+            "name": "Everyday Pizza",
+            "cloudinaryImageId": "svq1yqrcap8dhjnwr7uc",
+            "locality": "Nai Basti\n",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Pizzas",
+                "Italian-American",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 2.9,
+            "feeDetails": {
+                "restaurantId": "164211",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "77750",
+            "avgRatingString": "2.9",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 24,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "24 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 21:50:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/everyday-pizza-nai-basti-pilibhit-164211",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "168202",
+            "name": "Pappu Bhaiya Bakery Wale",
+            "cloudinaryImageId": "ysegiqpji7jaydp3wpe9",
+            "locality": "Station Road",
+            "areaName": "Pilibhit Locality",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Bakery",
+                "Desserts"
+            ],
+            "avgRating": 3.5,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "168202",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "154997",
+            "avgRatingString": "3.5",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 18,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "18 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "UPTO ₹40"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/pappu-bhaiya-bakery-wale-station-road-pilibhit-locality-pilibhit-168202",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "368112",
+            "name": "Meal Box @ 149",
+            "cloudinaryImageId": "v9hfqyl2whokkqfoodi8",
+            "locality": "Nai Basti\n",
+            "areaName": "Ballabh Nagar Colony",
+            "costForTwo": "₹149 for two",
+            "cuisines": [
+                "Indian"
+            ],
+            "avgRating": 3.7,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "368112",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "134280",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "23 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 22:24:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/meal-box-149-nai-basti-ballabh-nagar-colony-pilibhit-368112",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "185157",
+            "name": "New Etah Sweets & Restaurant (All Prep.In Desi Ghee)",
+            "cloudinaryImageId": "locmrpjilk8xowpnxfj6",
+            "locality": "Nai Basti\n",
+            "areaName": "Ekta Nagar",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Sweets",
+                "South Indian",
+                "Snacks",
+                "Desserts",
+                "Beverages",
+                "Continental",
+                "American",
+                "Chaat",
+                "Chinese",
+                "Bakery"
+            ],
+            "avgRating": 4,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "185157",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "146451",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 2.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "22 mins",
+                "lastMileTravelString": "2.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 21:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/new-etah-sweets-and-restaurant-all-prep-in-desi-ghee-nai-basti-ekta-nagar-pilibhit-185157",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "540299",
+            "name": "Vaishali Restaurant (Sudh shaakahari)",
+            "cloudinaryImageId": "jxqc2x7q89hbpxijsyus",
+            "locality": "Meena Bazar Station Road",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "North Indian"
+            ],
+            "avgRating": 3.4,
+            "feeDetails": {
+                "restaurantId": "540299",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "220977",
+            "avgRatingString": "3.4",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 2.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20 mins",
+                "lastMileTravelString": "2.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/vaishali-restaurant-sudh-shaakahari-meena-bazar-station-road-nai-basti-pilibhit-540299",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "459047",
+            "name": "Krishna Rasoi",
+            "cloudinaryImageId": "jzyjptvubv8okkgcdggr",
+            "locality": "Ashok colony",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Indian"
+            ],
+            "avgRating": 2.7,
+            "feeDetails": {
+                "restaurantId": "459047",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "120943",
+            "avgRatingString": "2.7",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "23 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/krishna-rasoi-ashok-colony-nai-basti-pilibhit-459047",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "392669",
+            "name": "Downtown's Pizza",
+            "cloudinaryImageId": "u4ehdqcsbdebovn9brnq",
+            "locality": "Ballabh Nagar Colony",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Italian",
+                "Pizzas",
+                "Pastas"
+            ],
+            "avgRating": 3.2,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "392669",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "245007",
+            "avgRatingString": "3.2",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "23 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/downtowns-pizza-ballabh-nagar-colony-nai-basti-pilibhit-392669",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "357648",
+            "name": "Italian pizza",
+            "cloudinaryImageId": "z2utwtfocinkmplrv2b6",
+            "locality": "Nai Basti",
+            "areaName": "Tularam",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Continental",
+                "Snacks"
+            ],
+            "avgRating": 3.1,
+            "feeDetails": {
+                "restaurantId": "357648",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "1420",
+            "avgRatingString": "3.1",
+            "totalRatingsString": "20+",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "22 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO ₹75"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/italian-pizza-nai-basti-tularam-pilibhit-357648",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "643390",
+            "name": "Chaat Ka Chaska",
+            "cloudinaryImageId": "9a51e3961273b1c2ebdf74f57dca27a9",
+            "locality": "Gandhi Stadium Road\n",
+            "areaName": "Gandhi Stadium Road",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Chaat",
+                "Fast Food",
+                "Chinese",
+                "South Indian",
+                "Beverages"
+            ],
+            "avgRating": 2.9,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "643390",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "56654",
+            "avgRatingString": "2.9",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 2.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "19 mins",
+                "lastMileTravelString": "2.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/chaat-ka-chaska-gandhi-stadium-road-pilibhit-643390",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "744934",
+            "name": "Foodies point",
+            "cloudinaryImageId": "bd9ee265c44245bbb4121856757df2c4",
+            "locality": "Tularam",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Chinese",
+                "Burgers",
+                "South Indian"
+            ],
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "744934",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "82647",
+            "avgRatingString": "--",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 2.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "22 mins",
+                "lastMileTravelString": "2.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 22:15:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/foodies-point-tularam-nai-basti-pilibhit-744934",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "650996",
+            "name": "Yaaran Da Dhaba",
+            "cloudinaryImageId": "5013f13f56bebbeb12d826ed1a45a360",
+            "locality": "Ballabh Nagar Colony",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Indian"
+            ],
+            "avgRating": 2.3,
+            "feeDetails": {
+                "restaurantId": "650996",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "227267",
+            "avgRatingString": "2.3",
+            "totalRatingsString": "10+",
+            "sla": {
+                "deliveryTime": 18,
+                "lastMileTravel": 0.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "18 mins",
+                "lastMileTravelString": "0.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹599",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/yaaran-da-dhaba-ballabh-nagar-colony-nai-basti-pilibhit-650996",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "649551",
+            "name": "Gobblers Rolls & Bowls",
+            "cloudinaryImageId": "7c7e3d9e1174425bfa7d345bdc531612",
+            "locality": "Ballabh Nagar Colony",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Chinese",
+                "Snacks",
+                "Beverages",
+                "Kebabs"
+            ],
+            "avgRating": 3.6,
+            "feeDetails": {
+                "restaurantId": "649551",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "264245",
+            "avgRatingString": "3.6",
+            "totalRatingsString": "20+",
+            "sla": {
+                "deliveryTime": 21,
+                "lastMileTravel": 1.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "21 mins",
+                "lastMileTravelString": "1.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 22:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/gobblers-rolls-and-bowls-ballabh-nagar-colony-nai-basti-pilibhit-649551",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "584679",
+            "name": "Vadilal Ice Creams",
+            "cloudinaryImageId": "edf6aa61ed4cdfcda130897c5b3e5255",
+            "areaName": "Nai Basti",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Ice Cream"
+            ],
+            "avgRating": 3.9,
+            "feeDetails": {
+                "restaurantId": "584679",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "11745",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "20+",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 2.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "23 mins",
+                "lastMileTravelString": "2.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/vadilal-ice-creams-nai-basti-pilibhit-584679",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "580778",
+            "name": "Chinese Corner",
+            "cloudinaryImageId": "n1q4urqkhv96nliexrjl",
+            "locality": "Station Road",
+            "areaName": "Nai Basti\n",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Chinese",
+                "Continental",
+                "Beverages"
+            ],
+            "avgRating": 3.7,
+            "feeDetails": {
+                "restaurantId": "580778",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 900
+            },
+            "parentId": "2648",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 2.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "22 mins",
+                "lastMileTravelString": "2.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-08-05 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-ef11bf8a-f54d-4542-a7c3-78502b6fa927"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/chinese-corner-station-road-nai-basti-pilibhit-580778",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+
+]
   
     
   
