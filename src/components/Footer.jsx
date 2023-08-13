@@ -3,7 +3,7 @@ import Logo from "../assets/img/food-logo.png"
 
 const Footer = () => {
     return <footer className="bg-white w-full   bg-gradient-to-r from-red-600 via-red-500 to-red-600">
-    <div className=" w-full max-w-screen-xl px-2 py-8">
+    <div className=" w-full  px-4 py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0 hidden md:block">
               <a href="https://flowbite.com/" className="flex flex-col items-center">
@@ -11,7 +11,7 @@ const Footer = () => {
      <p className="text-white  font-serif mt-0 text-xs ">FOOD VEGAS</p>
               </a>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
+          <div className="px-2 grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
              
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-white uppercase ">Follow us</h2>
@@ -37,8 +37,8 @@ const Footer = () => {
               </div>
           </div>
       </div>
-      <hr className="my-6 border-gray-200 sm:mx-auto text-white  lg:my-8" />
-      <div className="sm:flex sm:items-center sm:justify-between">
+      <hr className="w-full my-6 border-gray-200 sm:mx-auto text-white  lg:my-8" />
+      <div className="sm:flex sm:items-center sm:justify-between px-2">
           <span className="text-sm  sm:text-center text-white  ">© 2023 <a href="https://flowbite.com/" className="hover:underline">FOOD VEGAS™</a>. All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
